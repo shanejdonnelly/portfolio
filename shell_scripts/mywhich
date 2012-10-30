@@ -1,0 +1,92 @@
+#!/bin/sh
+# make sure at least one param passed
+if [ ! "$#" -ge 1 ]; then
+  echo "Incorrect number of arguments."
+  echo "Usage: mywhich [-a] commands..."
+  exit 1
+fi
+
+# handle options
+# set a flag to check if you should search all for all ocurrences of the command
+# by default only finds the first occurance
+findall=false
+while :
+    do
+    case $1 in
+    -a )
+        findall=true
+        shift   # throw away this argument
+        ;;
+    -h)
+       echo "Usage: mywhich [-a] commands ..."
+       exit 0
+       ;;
+    *)
+       # done processing the options
+       break
+      ;;
+    esac
+done
+
+
+for arg
+  do  
+  ##
+  # handle commands with path included
+  ##
+    case "$arg" in
+    */*) has_slash=0 ;;
+    *) has_slash=1 ;;
+    esac
+    
+    if [ $has_slash -eq 0 ]; then 
+      for f
+       do
+        if [ ! -d "$f" -a -x "$f" ]; then
+          echo $f
+        elif [ -d "$f" ]; then
+          echo "That is a directory"
+          echo "Usage: mywhich [-a] commands ..."
+        else
+          echo "$f" not found
+          echo "Usage: mywhich [-a] commands ..."
+        fi
+      done
+      
+  ##
+  # handle commands without a path included 
+  ##
+    else
+      found=false 
+      exec=false
+      #split the $PATH into directories
+      for dir in `echo $PATH | sed -e 's/^:/.:/' -e 's/::/:.:/' -e 's/:$/:./' -e 's/:/ /g'`
+        do
+          for f in "$dir"/*; do # look through all files in current $PATH directory
+            if [ "$f" = "$dir"/"$arg" -a -x $f ]; then # found file and it's executable
+              echo $f
+              found=true
+              exec=true
+              break            
+            elif [ "$f" = "$dir"/"$arg" ]; then
+              found=true
+            fi
+          done # end $f
+          
+          # no all flag set, so we're only finding first occurance
+          # break out of loop
+          if [ "$found" = "true" -a "$findall" = "false" ]; then
+            break
+          fi
+        
+        done # end $dir
+        
+      if [ "$exec" = "false" -a "$found" = "true" ]; then
+        echo "$arg" not executable
+        echo "Usage: mywhich [-a] commands ..."
+      elif [ "$found" = "false" -a "$exec" = "false" ]; then
+        echo "$arg" not found
+        echo "Usage: mywhich [-a] commands ..."
+      fi
+    fi
+  done # end $arg
