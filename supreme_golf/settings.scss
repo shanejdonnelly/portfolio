@@ -1,0 +1,138 @@
+// ------------------------------------------------------------------
+//
+// SG Settings
+// Table of Contents
+//
+// ------------------------------------------------------------------
+
+// Base
+// Colors
+// Background Colors
+// Layout
+// Module Settings
+// - Circles
+// Typography
+// - font faces
+// - font sizes 
+// - letter spacing
+
+// ------------------------------------------------------------------
+//
+// Base
+//
+// ------------------------------------------------------------------
+
+$base-font-size: 100% !default; 
+$base-line-height: 150% !default; // $base-line-height is 24px while $base-font-size is 16px
+
+// ------------------------------------------------------------------
+//
+// Colors
+// See javascripts/settings.js.erb
+//
+// ------------------------------------------------------------------
+$blue: #3D5591;
+$dark_blue: #0A123C;
+$light_blue: #d7e0f3;
+$pale_blue: #f3f6ff;
+
+$orange: #ff8a00;
+$dark_orange: #ff6600;
+$darker_orange: darken(#ff6600, 5%);
+$light_orange: #fcaf17;
+
+$bkg_default: #ffffff;
+$white: #ffffff;
+$black: #000000;
+
+$darker_gray: #222222;
+$dark_gray: #444444;
+$gray: #666666;
+$body_font_gray: #777777;
+$light_gray: #999999;
+$lighter_gray: #cccccc;
+$pale_gray: #dedede;
+$paler_gray: #eeeeee;
+
+$error: #9f0909; 
+$bright_red_error: #CC0000; //used in forms
+$success: green;
+
+$twitter: #55ACEE;
+$facebook: #3B5998;
+$google: #DD4B39;
+$pinterest: #CA2026;
+
+// ------------------------------------------------------------------
+//
+// Layout
+//
+// ------------------------------------------------------------------
+$footer_height: 50px;
+
+//GRID
+
+// breakpoints
+$screen_xs: 320px; 
+$screen_sm: 768px;
+$screen_md: 994px;
+$screen_lg: 1120px;
+
+// Container sizes 
+
+// Medium screen / tablet portrait
+$container_xs: 100%;
+
+// Medium screen / tablet portrait
+$container_sm: 100%;
+
+// Large screen / tablet landscape
+$container_md: 994px;
+
+// X-Large screen / desktop
+$container_lg: 1120px;
+
+// ------------------------------------------------------------------
+//
+// Module Settings
+//
+// ------------------------------------------------------------------ 
+
+// Circles - .m-circle, .m-circle--image, .m-circle--deal
+$mobile_circle_size: 75px;
+$small_circle_size: 100px;
+$medium_circle_size: 130px;
+$big_circle_size: 260px; 
+$huge_circle_size: 400px;
+
+$mobile_circle_border: 4px;
+$small_circle_border: 4px;
+$medium_circle_border: 4px;
+$big_circle_border: 4px;
+$huge_circle_border: 4px; 
+
+$nav_search_width: 395px;
+
+// ------------------------------------------------------------------
+// 
+// Typography
+//
+// ------------------------------------------------------------------
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
+}
+
+@function rem($px){ 
+  $num: strip-units($px);
+  @return $num / 16 + rem;
+}
+
+//Font faces
+$default_font: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$header_font: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body_font: "Sanchez", "Georgia", "Times New Roman", serif;
+
+$lato: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$oswald: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sanchez: "Sanchez", "Georgia", "Times New Roman", serif;
+
