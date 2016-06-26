@@ -1,0 +1,29 @@
+@import '_settings.scss';
+
+.c-breadcrumbs{ 
+
+     margin: 5px 20px; 
+
+    .c-breadcrumbs__link{
+        color: $gray;
+        font-size: 13px;
+        text-decoration: none;         
+
+        &:visited{ color: $gray; }
+        &:active{ color: $gray; }
+        &:hover{ color: $orange; }
+    }
+
+    .fa-chevron-right{ 
+      color: $gray;         
+      font-size: 10px; 
+      padding: 10px;  
+    }
+
+    .c-breadcrumbs__current-page{
+        border-bottom: 1px solid $gray;
+        color: $gray;        
+        font-size: 13px;
+    }
+
+}
