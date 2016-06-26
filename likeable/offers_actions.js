@@ -87,50 +87,6 @@ State.on('location:create', function(l){
 
 });
 
-State.on('offer:create_default', function(user){ 
-    var defaults = State.get().page_defaults;
-
-    //create the offer defaults
-    var offer = {
-        created: new Date(),
-        name: 'Default Offer', 
-        id: 1,
-        type: 'none', 
-        banner_bg_color: defaults.banner_bg_color, 
-        banner_text_color: defaults.banner_text_color, 
-        logo_url: defaults.logo_url, 
-        image_url: defaults.image_url, 
-        custom_headline: user.clinic_name,
-        fine_print: '',
-        about_offer: '',
-        tagline: '',
-        email_input_label: 'Subscribe to our email list',
-        about_business: defaults.about_business,
-        hours: defaults.hours,
-        show_hours: defaults.show_hours,
-        location_id: defaults.location_id, 
-        start_date: moment(),  
-        end_date: moment("2095-12-25"),
-        preview_code: Math.random().toString(36).substr(2,10) + Math.random().toString(36).substr(2,10),
-        social_icons: defaults.social_icons, 
-        social_feeds: defaults.social_feeds, 
-        ad_message: 'Visit ' + user.clinic_name, 
-        ad_link: user.hubsite_url, 
-        ad_image_url: 'https://likeabucket.s3.amazonaws.com/lhxuxzx6qo_1464896606697.jpg', 
-        ad_headline: user.clinic_name, 
-        ad_description: 'Your ad description...', 
-        email_receive_alerts: true,
-        email_subject: 'Thank you!',
-        email_replyto: user.email,
-        email_headline: 'Look for news and deals in your inbox!',
-        email_message: 'Thank you for your interest in ' + user.clinic_Name + '.' 
-    };
-
-    State.get().offers.push(offer);
-
-    State.trigger('offer:create', user);
- 
-});
 //
 // CREATE OR COPY OFFER
 //
