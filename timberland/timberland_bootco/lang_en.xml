@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bootco>	 
+	<dictionary>
+
+    <!-- Site Wide -->
+    <timberland_boot_company><![CDATA[Timberland Boot Company]]></timberland_boot_company>
+    <video><![CDATA[fXcf0fLb5IA]]></video>
+    <video_sidebar_title><![CDATA[An Era In Transition]]></video_sidebar_title>
+    <video_sidebar_desc><![CDATA[Hand-sewn. Classic heel construction. With stone washed Horween leather, they convey a vintage feel. No two sides are the same. Details give the look of a shoe that's been worn and repaired by it's owner.]]></video_sidebar_desc>
+    <watch_video><![CDATA[Watch Video]]></watch_video>
+    <share><![CDATA[Share]]></share>
+    <shop><![CDATA[Shop]]></shop>
+    
+    <!-- Home Page -->
+    
+    <home_content_title><![CDATA[THE ART OF BOOTMAKING]]></home_content_title>
+    <home_content_desc><![CDATA[Timberland Boot Company examines New England from 1900-1945—an era defined by hardworking men and women. Through stories, materials, craftsmanship and values, we pay homage to the people, their place in history and the footwear that served their purposes. Enduring. Well-crafted. Following a deep, abiding respect for the art of making boots and shoes.]]></home_content_desc>
+    
+    <!-- Men's Home Page -->
+    <men_home_title><![CDATA[BUILT TO ENDURE]]></men_home_title>
+    <men_home_content><![CDATA[The 1920s. Peabody, Massachusetts. The unrivaled Leather Capital of the World. The men who powered industry endured long days in harsh conditions to craft the finest footwear of its day.<br/><br/>We honor their commitment. A collection to make them proud. Crafted as they were. Made to last. With premium leathers, tough metal hardware and hammered leather outsoles. Details tell a story of worn and repaired through a lifetime of use.]]></men_home_content>
+    
+    <!-- Women's Home Page -->
+    <women_home_title><![CDATA[INSPIRED BY AN ERA OF PROGRESS]]></women_home_title>
+    <women_home_content><![CDATA[Lowell, Massachusetts—the 1900s. "Mill Girls"—women who left their family farms to join the workforce—gained independence and later became professionals and business owners, leading to greater equality. These visionaries inspire the new collection, built to endure the harsh winters of this New England era. Combining exceptional leathers, richly piled shearling and durable hardware. The best of what defined early 20th century reinterpreted for today.]]></women_home_content>
+    
+		<!-- Common Nav -->
+		<download_the_catalog><![CDATA[Download The Catalog]]></download_the_catalog>
+    <shop_the_collection><![CDATA[Shop The Collection]]></shop_the_collection>
+    <mens_collection><![CDATA[Men's Collection]]></mens_collection>
+    <womens_collection><![CDATA[Women's Collection]]></womens_collection>
+    <collection><![CDATA[Collection]]></collection>
+    
+    <!-- Mens Nav -->
+    <carries><![CDATA[13 Carries]]></carries>
+    <eastern_standard><![CDATA[Eastern Standard]]></eastern_standard>
+    <wodehouse><![CDATA[Wodehouse]]></wodehouse>
+    <tackhead><![CDATA[Tackhead]]></tackhead>
+    <blake_winter><![CDATA[Blake Winter]]></blake_winter>
+    <mens_shop_collection_link><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></mens_shop_collection_link>
+    <mens_download_catalog_link><![CDATA[files/2012-fall-bootco-men.pdf]]></mens_download_catalog_link>
+    
+    <!-- Womens Nav -->
+    <lucille><![CDATA[Lucille]]></lucille>
+    <marge><![CDATA[Marge]]></marge>
+    <womens_shop_collection_link><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032205&camp=MS:BCO:Link:NA:TBL]]></womens_shop_collection_link>
+    <womens_download_catalog_link><![CDATA[files/2012-fall-bootco-women.pdf]]></womens_download_catalog_link>
+    
+    <!-- Women Products -->
+    
+    <!-- Lucille -->
+    <lucille_collection><![CDATA[Lucille Collection]]></lucille_collection>
+    <lucille_desc><![CDATA[In cold New England mills, Lucille depended on her boots for protection. Warm shearling. Exceptional leathers. Developing a rich patina that told a story of the places they’ve been. Footwear welcomed to this era with memory foam, hidden stretch materials and rubber sole inserts for traction. Both beautiful and functional.]]></lucille_desc>
+    <lucille_shop><![CDATA[http://shop.timberland.com]]></lucille_shop>
+    <lucille_video><![CDATA[]]></lucille_video>
+    <lucille_main_title><![CDATA[WARMTH AND DETAILS —<br/>INSPIRED BY LUCILLE]]></lucille_main_title>
+    <lucille_main_content><![CDATA[For the first time, women worked alongside men—doing the same jobs. Women like Lucille worked the heavy machinery, spending long days on their feet. Harsh conditions required sturdy yet beautiful footwear.]]></lucille_main_content>
+    
+    <lucille_detail1_title><![CDATA[FUNCTIONAL BEAUTY]]></lucille_detail1_title>
+    <lucille_detail1_content><![CDATA[Mill Girls depended on their boots for harsh New England conditions. But there was room for beauty. Intricate leatherwork. Plush linings. Warmth.]]></lucille_detail1_content>
+    <lucille_detail2_title><![CDATA[MADE BETTER]]></lucille_detail2_title>
+    <lucille_detail2_content><![CDATA[When boot toes wore thin,<br/>they were fixed. Repaired.<br/>Made better by the woman<br/>who wore them. ]]></lucille_detail2_content>
+    <lucille_detail3_title><![CDATA[]]></lucille_detail3_title>
+    <lucille_detail3_content><![CDATA[]]></lucille_detail3_content>
+
+    <lucille_product1_text><![CDATA[Lucille Tall Top Lace Pull On Boot - Medium Brown / 3640R]]></lucille_product1_text>
+    <lucille_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321353&camp=MS:BCO:Link:NA:TBL]]></lucille_product1_shop>
+    <lucille_product2_text><![CDATA[Lucille Tall Top Lace Pull On Boot - Dark Brown / 3641R]]></lucille_product2_text>
+    <lucille_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321353&camp=MS:BCO:Link:NA:TBL]]></lucille_product2_shop>
+    <lucille_product3_text><![CDATA[Lucille Snap Mid Boot<br/>Dark Tan / 3633R]]></lucille_product3_text>
+    <lucille_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321353&camp=MS:BCO:Link:NA:TBL]]></lucille_product3_shop>
+    <lucille_product4_text><![CDATA[Lucille Snap Mid Boot<br/>Dark Brown / 3635R]]></lucille_product4_text>
+    <lucille_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321353&camp=MS:BCO:Link:NA:TBL]]></lucille_product4_shop>
+    
+    <!-- Marge -->
+    <marge_collection><![CDATA[Marge Collection]]></marge_collection>
+    <marge_desc><![CDATA[Marge was an ambitious woman who worked in New England mills and rose in the ranks. We honor her achievement with a collection that provides comfort and style. Inspired by post-industrial era rainboots. Authentic shearling. Premium leathers. Genuine leather construction finished by hand. Distinctly feminine details balanced with modern comforts. ]]></marge_desc>
+    <marge_shop><![CDATA[http://shop.timberland.com]]></marge_shop>
+    <marge_video><![CDATA[]]></marge_video>
+    <marge_main_title><![CDATA[PURPOSE AND BEAUTY —<br/>INSPIRED BY MARGE]]></marge_main_title>
+    <marge_main_content><![CDATA[From running the home to running the office, women of the post-industrial era headed into the workforce. Women like Marge powered the New England footwear industry, bringing their skills to the factories. Always resourceful. What she didn’t have, she made. What needed repair, she mended. Functional and feminine.   ]]></marge_main_content>
+    
+    <marge_detail1_title><![CDATA[PROTECTION FROM THE ELEMENTS]]></marge_detail1_title>
+    <marge_detail1_content><![CDATA[New England mills were cold. New England winters were colder. To do their jobs, Mill Girls needed boots that kept them warm. Fur linings. Rich leathers. Practical and beautiful. ]]></marge_detail1_content>
+    <marge_detail2_title><![CDATA[WORN AND REPAIRED ]]></marge_detail2_title>
+    <marge_detail2_content><![CDATA[Women of the day repaired the heels of their own boots. Patched. Stitched. Adding character with interesting leather pieces found at the mill.  Protected from wear and made more dependable. ]]></marge_detail2_content>
+    <marge_detail3_title><![CDATA[]]></marge_detail3_title>
+    <marge_detail3_content><![CDATA[]]></marge_detail3_content>
+    
+    <marge_product1_text><![CDATA[Marge Snap Ankle Boot<br/>Dark Tan / 3627R]]></marge_product1_text>
+    <marge_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321355&camp=MS:BCO:Link:NA:TBL]]></marge_product1_shop>
+    <marge_product2_text><![CDATA[Marge Snap Ankle Boot<br/>Dark Brown / 3629R]]></marge_product2_text>
+    <marge_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321355&camp=MS:BCO:Link:NA:TBL]]></marge_product2_shop>
+    <marge_product3_text><![CDATA[Marge Snap Tall Side Zip Boot<br/>Medium Brown / 3636R]]></marge_product3_text>
+    <marge_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321355&camp=MS:BCO:Link:NA:TBL]]></marge_product3_shop>
+    <marge_product4_text><![CDATA[Marge Snap Tall Side Zip Boot<br/>Dark Brown / 3637R]]></marge_product4_text>
+    <marge_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321355&camp=MS:BCO:Link:NA:TBL]]></marge_product4_shop>
+    
+        
+    <!-- end Women Products -->
+    
+    <!-- Men Products -->
+    
+    <!-- 13 Carries -->
+    <carries_collection><![CDATA[13 Carries Collection]]></carries_collection>
+    <carries_desc><![CDATA[A single pair of shoes for both work and outdoor recreation. This is how it was. Built to transition from city to country. Rugged Horween<sup>&reg;</sup> leathers. Antique finishes. Made to take on any journey.]]></carries_desc>
+    <carries_shop><![CDATA[http://shop.timberland.com]]></carries_shop>
+    <carries_video><![CDATA[]]></carries_video>
+    <carries_main_title><![CDATA[TAKE ON ANY JOURNEY ]]></carries_main_title>
+    <carries_main_content><![CDATA[Worn in the city. Worn in the country. One pair took on both tasks. Horween<sup>&reg;</sup> leather shined up when needed. Hardware left tarnished told a story. Traditions of New England craftsmanship brought to life again.]]></carries_main_content>
+
+    <carries_detail1_title><![CDATA[BETTER FOR<br/>THE WEAR]]></carries_detail1_title>
+    <carries_detail1_content><![CDATA[Genuine leather with hand-hammered details. Harkens back to when footwear was built for dress and recreation. ]]></carries_detail1_content>
+    <carries_detail2_title><![CDATA[HOW IT WAS]]></carries_detail2_title>
+    <carries_detail2_content><![CDATA[Made like shoes generations ago. Horween<sup>&reg;</sup> leather. Durable for the outdoors and cleans up easy. ]]></carries_detail2_content>
+    <carries_detail3_title><![CDATA[HONORING<br/>THE ERA]]></carries_detail3_title>
+    <carries_detail3_content><![CDATA[A distinct vintage look and feel. Simple lines. Burnished leather. Antique finishes. ]]></carries_detail3_content>
+
+    <carries_product1_text><![CDATA[13 Carries Oxford<br/>Tan / 4036R]]></carries_product1_text>
+    <carries_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></carries_product1_shop>
+    <carries_product2_text><![CDATA[13 Carries Oxford<br/>Brown / 4037R]]></carries_product2_text>
+    <carries_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></carries_product2_shop>
+    <carries_product3_text><![CDATA[13 Carries Half Cab<br/>Tan / 4038R]]></carries_product3_text>
+    <carries_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></carries_product3_shop>
+    <carries_product4_text><![CDATA[13 Carries Half Cab<br/>Brown / 4039R]]></carries_product4_text>
+    <carries_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></carries_product4_shop>
+    <carries_product5_text><![CDATA[13 Carries Chukka<br/>Tan / 4040R]]></carries_product5_text>
+    <carries_product5_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></carries_product5_shop>
+    <carries_product6_text><![CDATA[13 Carries Chukka<br/>Brown / 4041R]]></carries_product6_text>
+    <carries_product6_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></carries_product6_shop>
+        
+    <!-- Eastern Standard -->
+    <eastern_standard_collection><![CDATA[Eastern Standard Collection]]></eastern_standard_collection>
+    <eastern_standard_desc><![CDATA[New England craftsmanship starts with New England craftspeople. Made in Maine with exclusively U.S. materials like oiled cotton canvas and Horween<sup>&reg;</sup> leather. Rugged. Dependable. Built to be appreciated for a lifetime.]]></eastern_standard_desc>
+    <eastern_standard_shop><![CDATA[http://shop.timberland.com]]></eastern_standard_shop>
+    <eastern_standard_video><![CDATA[7tZaPrepcz4]]></eastern_standard_video>
+    <eastern_standard_main_title><![CDATA[MADE IN MAINE]]></eastern_standard_main_title>
+    <eastern_standard_main_content><![CDATA[Crafted in Lewiston, Maine, from materials sourced exclusively in the USA. Industrial-era craft combined with New England ingenuity and hard work.]]></eastern_standard_main_content>
+    
+    <eastern_standard_detail1_title><![CDATA[BUILT TO<br/>ENDURE]]></eastern_standard_detail1_title>
+    <eastern_standard_detail1_content><![CDATA[Horween<sup>&reg;</sup> Chromexcel<sup>&reg;</sup> leather. Made in the USA. Unchanged for over a century. Wear and age bring character. ]]></eastern_standard_detail1_content>
+    <eastern_standard_detail2_title><![CDATA[HARD-WORKING<br/>AND DEPENDABLE ]]></eastern_standard_detail2_title>
+    <eastern_standard_detail2_content><![CDATA[Vibram<sup>&reg;</sup> outsole. American made and built to last.<br/>Welted. Secure. Long-wearing.]]></eastern_standard_detail2_content>
+    <eastern_standard_detail3_title><![CDATA[REPAIR AS NEEDED ]]></eastern_standard_detail3_title>
+    <eastern_standard_detail3_content><![CDATA[Made the traditional way. After years of use, the sole can be replaced. ]]></eastern_standard_detail3_content>
+    
+    <eastern_standard_product1_text><![CDATA[Eastern Standard Plain Toe High Chukka - Black / 4024R]]></eastern_standard_product1_text>
+    <eastern_standard_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=11618175&camp=MS:BCO:Link:NA:TBL]]></eastern_standard_product1_shop>
+    <eastern_standard_product2_text><![CDATA[Eastern Standard Plain Toe High Chukka - Brown / 4025R]]></eastern_standard_product2_text>
+    <eastern_standard_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=11618175&camp=MS:BCO:Link:NA:TBL]]></eastern_standard_product2_shop>
+    <eastern_standard_product3_text><![CDATA[Eastern Standard 6&quot; Moc Toe Lace Up - Black / 4026R]]></eastern_standard_product3_text>
+    <eastern_standard_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=11618175&camp=MS:BCO:Link:NA:TBL]]></eastern_standard_product3_shop>
+    <eastern_standard_product4_text><![CDATA[Eastern Standard 6&quot; Moc Toe Lace Up - Brown / 4027R]]></eastern_standard_product4_text>
+    <eastern_standard_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=11618175&camp=MS:BCO:Link:NA:TBL]]></eastern_standard_product4_shop>
+    
+    <!-- Wodehouse -->
+    <wodehouse_collection><![CDATA[Wodehouse Collection]]></wodehouse_collection>
+    <wodehouse_desc><![CDATA[Inspired by those who captained the leather industry. Worn with pride by men of distinction. Dress shoes stripped down to their essential elements. Improving with wear and age. ]]></wodehouse_desc>
+    <wodehouse_shop><![CDATA[http://shop.timberland.com]]></wodehouse_shop>
+    <wodehouse_video><![CDATA[]]></wodehouse_video>
+    <wodehouse_main_title><![CDATA[WORN WITH PRIDE]]></wodehouse_main_title>
+    <wodehouse_main_content><![CDATA[Peabody, Massachusetts. A century ago. 9,000 workers, 91 leather companies—owned by men who wore the best of what their workers made. A symbol of his factory’s craftsmanship. Quality in every cut and stitch. ]]></wodehouse_main_content>
+
+    <wodehouse_detail1_title><![CDATA[DISTINCTIVE<br/>& REFINED]]></wodehouse_detail1_title>
+    <wodehouse_detail1_content><![CDATA[As it was. Materials that represent the man wearing them. Sensible. Distinguished. ]]></wodehouse_detail1_content>
+    <wodehouse_detail2_title><![CDATA[DETAILS<br/>MATTER]]></wodehouse_detail2_title>
+    <wodehouse_detail2_content><![CDATA[Hardware to get the job done. Eyelets and hooks. Measured out and functional. ]]></wodehouse_detail2_content>
+    <wodehouse_detail3_title><![CDATA[CONNECTING PAST & PRESENT]]></wodehouse_detail3_title>
+    <wodehouse_detail3_content><![CDATA[Leather stacked heels and siped rubber soles. Elegant yet practical.]]></wodehouse_detail3_content>
+    
+    <wodehouse_product1_text><![CDATA[Wodehouse Plain Toe Chukka<br/>Tan Suede / 4019R]]></wodehouse_product1_text>
+    <wodehouse_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product1_shop>
+    <wodehouse_product2_text><![CDATA[Wodehouse Plain Toe Chukka<br/>Brown Suede / 4020R]]></wodehouse_product2_text>
+    <wodehouse_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product2_shop>
+    <wodehouse_product3_text><![CDATA[Wodehouse Plain Toe Chukka<br/>Navy Suede / 4021R]]></wodehouse_product3_text>
+    <wodehouse_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product3_shop>
+    <wodehouse_product4_text><![CDATA[Wodehouse Cap Toe Boot<br/>Brown Smooth / 4034R]]></wodehouse_product4_text>
+    <wodehouse_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product4_shop>
+    <wodehouse_product5_text><![CDATA[Wodehouse Cap Toe Boot<br/>Black Smooth / 4035R]]></wodehouse_product5_text>
+    <wodehouse_product5_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product5_shop>
+    <wodehouse_product6_text><![CDATA[Wodehouse Cap Toe Oxford<br/>Burnished Dark Brown / 75507]]></wodehouse_product6_text>
+    <wodehouse_product6_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product6_shop>
+    <wodehouse_product7_text><![CDATA[Wodehouse Cap Toe Oxford<br/>Burnished Black / 75508]]></wodehouse_product7_text>
+    <wodehouse_product7_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product7_shop>
+    <wodehouse_product8_text><![CDATA[Wodehouse Plain Toe Chukka<br/>Burnished Dark Brown / 75509]]></wodehouse_product8_text>
+    <wodehouse_product8_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product8_shop>
+    <wodehouse_product9_text><![CDATA[Wodehouse Plain Toe Chukka<br/>Burnished Black / 75510]]></wodehouse_product9_text>
+    <wodehouse_product9_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321347&camp=MS:BCO:Link:NA:TBL]]></wodehouse_product9_shop>
+    
+    <!-- Tackhead -->
+    <tackhead_collection><![CDATA[Tackhead Collection]]></tackhead_collection>
+    <tackhead_desc><![CDATA[A homage to industrial era factory workers and the boots they depended on. Materials sourced in the U.S. and U.K. Repairable Goodyear Welted Construction and Vibram<sup>&reg;</sup> soles. Form follows function.]]></tackhead_desc>
+    <tackhead_shop><![CDATA[http://shop.timberland.com]]></tackhead_shop>
+    <tackhead_video><![CDATA[]]></tackhead_video>
+    <tackhead_main_title><![CDATA[DURABILITY WAS A REQUIREMENT]]></tackhead_main_title>
+    <tackhead_main_content><![CDATA[Rugged leathers and sturdy canvas were broken in over time. Comfort earned through long hours of toil in factories throughout Lynn, Massachusetts. When wear and tear took its toll, parts were replaced. Shoes reborn and reworn.]]></tackhead_main_content>
+    
+    <tackhead_detail1_title><![CDATA[MIXED MATERIALS]]></tackhead_detail1_title>
+    <tackhead_detail1_content><![CDATA[Leather and canvas. Each doing its part. Works hard. Wears hard. More comfortable and distinctive over time.]]></tackhead_detail1_content>
+    <tackhead_detail2_title><![CDATA[WORN & REPAIRED]]></tackhead_detail2_title>
+    <tackhead_detail2_content><![CDATA[Mended. Made stronger with a patch or hiking boot eyelet. Repaired with stitching. ]]></tackhead_detail2_content>
+    <tackhead_detail3_title><![CDATA[MADE FOR CONTINUOUS USE ]]></tackhead_detail3_title>
+    <tackhead_detail3_content><![CDATA[Vibram<sup>&reg;</sup> outsole. Resolable Goodyear Welted Construction for a lifetime of resoling and reuse. ]]></tackhead_detail3_content>
+    
+    <tackhead_product1_text><![CDATA[Tackhead 8&quot; Fabric & Leather<br/>Brown - Tan / 76110]]></tackhead_product1_text>
+    <tackhead_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321346&camp=MS:BCO:Link:NA:TBL]]></tackhead_product1_shop>
+    <tackhead_product2_text><![CDATA[Tackhead 8&quot; Fabric & Leather<br/>Dark Brown - Olive / 76112]]></tackhead_product2_text>
+    <tackhead_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321346&camp=MS:BCO:Link:NA:TBL]]></tackhead_product2_shop>
+    <tackhead_product3_text><![CDATA[Tackhead 8&quot; Full Grain Leather<br/>Rust Distressed / 76116]]></tackhead_product3_text>
+    <tackhead_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321346&camp=MS:BCO:Link:NA:TBL]]></tackhead_product3_shop>
+    <tackhead_product4_text><![CDATA[Tackhead 8&quot; Full Grain Leather<br/>Burgundy Distressed / 76118]]></tackhead_product4_text>
+    <tackhead_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321346&camp=MS:BCO:Link:NA:TBL]]></tackhead_product4_shop>
+    <tackhead_product5_text><![CDATA[Tackhead Patch<br/>Burgundy Distressed / 76120]]></tackhead_product5_text>
+    <tackhead_product5_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321346&camp=MS:BCO:Link:NA:TBL]]></tackhead_product5_shop>
+    <tackhead_product6_text><![CDATA[Tackhead Patch<br/>Dark Brown Distressed / 76121]]></tackhead_product6_text>
+    <tackhead_product6_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4321346&camp=MS:BCO:Link:NA:TBL]]></tackhead_product6_shop>
+    
+    <!-- Blake Winter -->
+    <blake_winter_collection><![CDATA[Blake Winter Collection]]></blake_winter_collection>
+    <blake_winter_desc><![CDATA[Craftsmanship and pride. The Blake Winter collection honors this tradition. Hand-made. Hand-sewn. Classic heel to heel construction. With stonewashed Horween<sup>&reg;</sup> leather, they convey a vintage feel. Crafted with skill and made ready for long-lasting wear.]]></blake_winter_desc>
+    <blake_winter_shop><![CDATA[http://shop.timberland.com]]></blake_winter_shop>
+    <blake_winter_video><![CDATA[]]></blake_winter_video>
+    <blake_winter_main_title><![CDATA[APPRECIATED FOR A LIFETIME]]></blake_winter_main_title>
+    <blake_winter_main_content><![CDATA[Improving with age.  Mended when necessary. Grandpa’s old boots, worn through the years. Asymmetrical details—a patch here and a stitch there. Made better with wear.]]></blake_winter_main_content>
+    
+    <blake_winter_detail1_title><![CDATA[STEEPED IN TRADITION]]></blake_winter_detail1_title>
+    <blake_winter_detail1_content><![CDATA[Horween<sup>&reg;</sup> Chromexcel<sup>&reg;</sup> leather. Made in 89 steps. 28 days of labor. Infused with oil and wax. Stone-washed and lovingly refurbished. ]]></blake_winter_detail1_content>
+    <blake_winter_detail2_title><![CDATA[WEATHERED WITH TIME]]></blake_winter_detail2_title>
+    <blake_winter_detail2_content><![CDATA[Salt-washed for a broken-in look.<br/>Character developed with time and wear. ]]></blake_winter_detail2_content>
+    <blake_winter_detail3_title><![CDATA[MADE LIKE<br/>IT WAS]]></blake_winter_detail3_title>
+    <blake_winter_detail3_content><![CDATA[<a href="" title="Blake Winter is constructed based on a breast (heel) to breast (heel) stitch to sole construction.  Meaning the stitch runs at the base of the heel around the front of the shoe and down the other side to the heel.  The heel is actually nailed to the mid/upper.  Aesthetics are the reason why the stitch doesn’t run all the way around the shoe.  It gives you the ability to sculp the heel very close to the upper without having a ledge extension on the welt." class="tooltip">Heel-to-heel</a> construction. Heel is nailed on. Stitching starts at the heel, runs around the front of the shoe and then back to the heel.]]></blake_winter_detail3_content>
+    
+    <blake_winter_product1_text><![CDATA[Blake Winter Desert Chukka<br/>Black Oiled / 4028R]]></blake_winter_product1_text>
+    <blake_winter_product1_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></blake_winter_product1_shop>
+    <blake_winter_product2_text><![CDATA[Blake Winter Desert Chukka<br/>Brown Oiled / 4029R]]></blake_winter_product2_text>
+    <blake_winter_product2_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></blake_winter_product2_shop>
+    <blake_winter_product3_text><![CDATA[Blake Winter 6&quot; Boot<br/>Black Oiled / 4030R]]></blake_winter_product3_text>
+    <blake_winter_product3_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></blake_winter_product3_shop>
+    <blake_winter_product4_text><![CDATA[Blake Winter 6&quot; Boot<br/>Brown Oiled / 4031R]]></blake_winter_product4_text>
+    <blake_winter_product4_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></blake_winter_product4_shop>
+    <blake_winter_product5_text><![CDATA[Blake Winter 8&quot; Moc Boot<br/>Brown Oiled / 4032R]]></blake_winter_product5_text>
+    <blake_winter_product5_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></blake_winter_product5_shop>
+    <blake_winter_product6_text><![CDATA[Blake Winter 8&quot; Moc Boot<br/>Burgundy Oiled / 4033R]]></blake_winter_product6_text>
+    <blake_winter_product6_shop><![CDATA[http://shop.timberland.com/family/index.jsp?categoryId=4032181&camp=MS:BCO:Link:NA:TBL]]></blake_winter_product6_shop>
+    
+    <!-- end Men Products -->
+       
+    <!-- Women Landing Page -->
+    <women_landing_title><![CDATA[]]></women_landing_title>
+    <women_landing_desc><![CDATA[]]></women_landing_desc>
+    
+    <!-- Men Landing Page -->
+    <men_landing_title><![CDATA[]]></men_landing_title>
+    <men_landing_desc><![CDATA[]]></men_landing_desc>    
+
+  </dictionary>
+</bootco>

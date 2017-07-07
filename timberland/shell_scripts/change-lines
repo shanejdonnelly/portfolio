@@ -1,0 +1,138 @@
+#!/bin/sh
+
+# a shell function to print and error message and exit the script
+error_and_die ()
+    {
+    echo "$@" >&2
+    exit 1
+
+    }
+# a shell function to print and error message and a usage message and
+# to exit the script
+error_and_die_with_usage ()
+    {
+    echo "$@" >&2
+    usage
+    exit 1
+    }
+
+# a shell function to print a usage message
+usage ()
+{
+echo "
+change-lines [-n] -s search string -r replace string files ...
+
+    -n    do not backup the original file
+    -s    search string the search for this string
+    -r    replace string replace the search string with this string
+    -h    print this message
+"  >&2
+}
+
+
+backup_file=true
+search_string=
+replace_string=
+
+while :
+    do
+      case $1 in
+      -n)
+         backup_file=false
+         ;;
+      -s)
+        if [ ! "$2" ]
+            then
+            error_and_die_with_usage "\nSearch String not specified with -s"
+            fi
+        search_string="$2"
+        shift 
+        ;;
+      -r)
+        if [ ! "$2" ]
+            then
+            error_and_die_with_usage "\nReplace string not specified with -r"
+            fi
+        replace_string="$2"
+        shift 
+        ;;
+      -h)
+        usage
+        exit 0
+        ;;
+      -?)
+        error_and_die_with_usage "\n$1 is not a valid option"
+        ;;
+      *)
+        break
+        ;;
+      esac
+      shift
+    done
+
+if [ ! "$search_string" -a ! "$replace_string"  -a $# -eq 0 ]
+    then
+    error_and_die_with_usage "\nSearch string not specified with -s\nReplace string not specified with -r\nNo file specified"
+    fi
+
+if [ ! "$search_string" -a ! "$replace_string" ]
+    then
+    error_and_die_with_usage "\nSearch string not specified with -s\nReplace string not specified with -r"
+    fi
+
+if [ ! "$search_string" -a $# -eq 0 ]
+    then
+    error_and_die_with_usage "\nSearch string not specified with -s\nNo file specified"
+    fi
+
+if [ ! "$search_string" ]
+    then
+    error_and_die_with_usage "\nSearch string not specified with -s"
+    fi
+
+if [ ! "$replace_string"  -a $# -eq 0 ]
+    then
+    error_and_die_with_usage "\nReplace string not specified with -r\nNo file specified"
+    fi
+
+if [ ! "$replace_string" ]
+    then
+    error_and_die_with_usage "\nReplace string not specified with -r"
+    fi
+
+if [ $# -eq 0 ]
+    then
+    error_and_die_with_usage "\nNo file specified"
+    fi
+
+# escape special characters in search and replace
+safe_search_string=$(printf "%s\n" "$search_string" | sed 's/[][\.*^$(){}?+|/]/\\&/g')
+safe_replace_string=$(printf "%s\n" "$replace_string" | sed 's/[\&/]/\\&/g')
+
+for file 
+
+  do    
+    if [ -e $file ]; then 
+      if [ -r $file ]; then
+        if [ -w "$file" ]; then 
+          cp "$file" "$file".keep
+          if [ -e "$file".keep ]; then
+            # the actual change-lines work
+            sed "s/${safe_search_string}/${safe_replace_string}/g" <$file.keep >$file
+            
+            if [ "$backup_file" = "false" ]; then
+              rm "$file".keep
+            fi        
+          else # file.keep doesn't exist
+            error_and_die_with_usage "\nYou do not have the proper permissions to use a backup file\nTry using the -n option"
+          fi
+        else # file not writable
+          echo "You do not have the proper permissions\n$file is not writable"
+        fi 
+      else # file not readable
+        echo "You do not have the proper permissions\n$file is not readable"      
+      fi 
+    else # file doesn't exist
+      echo "$file does not exist"
+    fi
+  done

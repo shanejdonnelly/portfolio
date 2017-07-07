@@ -1,0 +1,87 @@
+#!/bin/sh
+
+# a shell function to print an error message and a usage message and
+# to exit the script
+error_and_die_with_usage () {
+  echo "$@" >&2
+  usage
+  exit 1
+}
+
+# a shell function to print a usage message
+usage () {
+  echo "
+  Usage:
+  
+    s_mailer 
+  
+  Description:
+    
+    Send an email message to all currently logged on users on ce.uml.edu
+    
+  Options:
+    -h    print this message
+  "  >&2
+}
+
+# function to get a user's real name from /etc/passwd on ce.uml.edu
+# params
+# $1 = user_name
+get_real_name () {
+  grep "$1" /etc/passwd | cut -d':' -f5
+}
+  
+# function to send the mail message  
+s_mail () {
+  for name 
+  do
+    user_real_name=`get_real_name "$name"`
+    if [ ! $name = $sender ]; then
+      time_stamp=`date`
+      #send_the_mail "$user_real_name" "$sender" "$sender_real_name" "$time_stamp"
+      mail -s "mail from 90.312" "$name@ce.uml.edu"  << MESSAGE
+Hello $user_real_name,
+**** This email is automatically generatated by $sender  ******
+My instructor requires that I send this message as part of an assignment for class 90.312.
+The current time and date is $time_stamp.
+Have a nice day.
+$sender_real_name
+MESSAGE
+
+    fi
+  done  
+}
+
+# take care of any options 
+while :
+  do
+    case $1 in
+    -h)
+      usage
+      exit 0
+      ;;
+    -?)
+      error_and_die_with_usage "\n$1 is not a valid option"
+      ;;
+    *)
+      break
+      ;;
+    esac
+    shift
+  done
+
+
+sender=$USER
+sender_real_name=`get_real_name "$sender"`
+
+# first check to see if any users logged in
+num_users=`who | wc -l`
+if [ $num_users -gt 0 ]; then
+  
+  user_names=`who | cut -c1-8`
+  s_mail $user_names
+  
+else #no users currently on
+  error_and_die_with_usage
+fi
+
