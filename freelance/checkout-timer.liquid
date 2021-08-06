@@ -1,0 +1,140 @@
+<div id="clock-icon" class="hidden">
+  {% include 'icon-clock-2' %}
+</div>
+
+<script>
+
+	document.addEventListener('DOMContentLoaded', function(){
+    //don't show on order status page
+    //https://shopify.dev/themes/architecture/layouts/checkout-liquid#shopify-checkout-orderstatus
+    if(Shopify.Checkout.page === 'thank_you' || !Shopify.Checkout.step){
+      return;
+    }
+
+    initTimer()
+
+    function initTimer() {
+      // early return if the element already exists
+      if (document.querySelector('.checkout-timer')) {
+        return;
+      }
+
+      // Create countdown element 
+      const tempWrapper = document.createElement('div');
+      tempWrapper.innerHTML = renderCountdownArea();
+      const newTimer = tempWrapper.firstElementChild;
+
+      // Element countdown will be appended to
+      const timerWrap = document.querySelector('#checkout-timer-wrap');
+
+      try {
+        if (timerWrap) {
+          timerWrap.append(newTimer);
+
+          // 1 minute timer (in seconds) unless already started on another checkout page
+          let initialDuration = 10 * 60;
+
+          //check for sessionStorage item
+          if(sessionStorage.getItem('secondsRemaining')) {
+            initialDuration = parseInt(sessionStorage.getItem('secondsRemaining'), 10)
+          }
+          
+          const domNode = document.querySelector('#checkoutClock');
+          startTimer(initialDuration, domNode)
+        } 
+      } catch(e) {
+        console.error('May be missing a code input', e);
+      }
+    }
+
+    //duration: timer duration in seconds
+    //display: DOM node to update
+    function startTimer(seconds, display) {
+      let secondsRemaining = seconds; 
+
+      if(!display){
+        return false;
+      }
+
+      var timer = setInterval(function () {
+
+        let minutes = parseInt((secondsRemaining / 60), 10)
+        let seconds = parseInt((secondsRemaining % 60), 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        // update the DOM
+        display.textContent = minutes + ":" + seconds;
+
+        secondsRemaining = secondsRemaining - 1;
+
+        sessionStorage.setItem('secondsRemaining', secondsRemaining)
+
+        if (secondsRemaining < 0) {
+            clearInterval(timer);
+            changeToCountdownOver();
+            /*
+            * sessionStorage is cleared in layout/theme.js
+            */
+            return;
+        }
+
+      }, 1000);
+    }
+
+    function changeToCountdownOver(){
+      const countdownWrap = document.querySelector('#countdownWrap');
+      const countdownText = countdownWrap.querySelector('#countdownText');
+      const countdownClockIcon = countdownWrap.querySelector('#countdown-clock-icon');
+
+      countdownWrap.classList.add('expired');
+      countdownClockIcon.classList.add('hidden');
+      countdownText.innerHTML = `Need help with your order? <a href="tel:1-855-946-5233">1-855-946-5233</a><br>Check out now to save your place in the queue!`;
+    }
+
+    function renderCountdownArea() {
+      return `
+        <div class="checkout-timer" id="countdownWrap">
+          <svg id="countdown-clock-icon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 280"><defs><style>.cls-1{fill:#0f162d;}</style></defs><path class="cls-1" d="M201.05,256.77a6.64,6.64,0,0,1-3.77-12.55,119.43,119.43,0,0,0,21.19-13.15,6.63,6.63,0,0,1,8.14,10.48A131.71,131.71,0,0,1,203,256.16,6.54,6.54,0,0,1,201.05,256.77Zm49.35-42.61a6.63,6.63,0,0,1-6.37-10.3,121,121,0,0,0,11.83-22,6.63,6.63,0,1,1,12.27,5A133.21,133.21,0,0,1,255,211.32,6.63,6.63,0,0,1,250.4,214.16Zm21.53-61.55a6.34,6.34,0,0,1-1.38,0,6.63,6.63,0,0,1-6.13-7.1,120.42,120.42,0,0,0-.79-24.94l-.07-.52a6.63,6.63,0,0,1,13.15-1.78l.07.52a133.71,133.71,0,0,1,.87,27.69A6.65,6.65,0,0,1,271.93,152.61Z"/><path class="cls-1" d="M139.29,278.57C62.48,278.57,0,216.09,0,139.29a6.64,6.64,0,1,1,13.27,0,126.17,126.17,0,0,0,126,126,6.63,6.63,0,1,1,0,13.26Z"/><path class="cls-1" d="M139.29,278.57C62.48,278.57,0,216.09,0,139.29a6.64,6.64,0,1,1,13.27,0,126.17,126.17,0,0,0,126,126,6.63,6.63,0,1,1,0,13.26Z"/><path class="cls-1" d="M6.63,145.92A6.63,6.63,0,0,1,0,139.29C0,62.48,62.48,0,139.29,0h0A140,140,0,0,1,240,43a6.63,6.63,0,1,1-9.59,9.17,126.6,126.6,0,0,0-91.1-38.94h0a126.16,126.16,0,0,0-126,126A6.63,6.63,0,0,1,6.63,145.92Z"/><polygon class="cls-1" points="209.06 65.77 256.66 19.57 270.42 81.37 209.06 65.77"/><path class="cls-1" d="M74.58,189a6.63,6.63,0,0,1-2.37-12.83l75.92-29V61.53a6.63,6.63,0,1,1,13.26,0v94.71L77,188.55A6.58,6.58,0,0,1,74.58,189Z"/></svg>
+          <div class="checkout-text" id="countdownText">
+            <strong>Hurry!</strong> Your order is reserved for 
+            <span id="checkoutClock"></span>   
+            minutes
+          </div>
+        </div>
+      `;
+    }
+  });
+</script>
+
+<style>
+.checkout-timer {
+  align-items: center;
+  background-color: white;
+  border: 2px solid #0c32bc;
+  border-radius: 30px;
+  display: flex;
+  margin: 2em 0 2em;
+  padding: 10px 25px;
+}
+.checkout-timer svg{
+  width: 21px;
+  margin-right: 10px;
+}
+.checkout-text{
+  line-height: 20px;
+}
+.checkout-text a, .checkout-text a:hover, .checkout-text a:visited, .checkout-text a:active{
+  color: white;
+}
+.checkout-text strong{
+  font-weight: 700;
+}
+.checkout-timer.expired {
+  background-color: #0c32bc;
+}
+.expired .checkout-text{
+  color: #fff;
+}
+</style>
