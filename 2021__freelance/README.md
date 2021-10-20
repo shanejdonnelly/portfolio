@@ -4,6 +4,6 @@ However, I did start down the road of setting up a static site for them as well.
 
 As a note to anyone reading, React Static is a wonderfully simple static site generator. Being a fan of React, I would happily use React Static in the future, as opposed to 11ty - though that is also a terrific static generator. 
 
-/ 
+---
 
 Also included is an import script I wrote for migrating some data from a csv to GraphCMS
