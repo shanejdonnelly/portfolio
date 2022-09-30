@@ -1,0 +1,12 @@
+.linkWrap a {
+  text-decoration: underline;
+}
+.linkWrap a:hover {
+  text-decoration: none;
+}
+.linkWrap p {
+  margin-bottom: 0.75em;
+}
+.linkWrap p:last-of-type {
+  margin-bottom: 0;
+}
