@@ -10,7 +10,7 @@
 const Klaviyo = require('node-klaviyo');
 const fetch = require('node-fetch')
 const KlaviyoClient = new Klaviyo({
-    publicToken: 'zDszuf'
+    publicToken: ''
 });
 
 /*
