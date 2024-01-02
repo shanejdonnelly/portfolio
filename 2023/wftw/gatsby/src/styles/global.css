@@ -1,0 +1,25 @@
+/* 
+ * Purpose:
+ * Assign height: "100%" to
+ * html, body, #___gatsby &  
+ * div with role="group"
+*/
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+  min-height: 100%;
+}
+.chakra-toast__inner .chakra-alert__title {
+  font-size: 32px;
+  line-height: 56px;
+}
+.chakra-toast__inner .chakra-alert__desc {
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+}
+.chakra-toast__inner .chakra-alert__icon {
+  height: 48px;
+}

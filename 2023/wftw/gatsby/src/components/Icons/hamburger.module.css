@@ -1,0 +1,50 @@
+.button {
+  height: 36px;
+  cursor: pointer;
+  z-index: 2;
+}
+.button svg {
+  transition: 0.2s;
+}
+.button svg g:first-child {
+  opacity: 1;
+  transition: opacity 0s 0.2s;
+}
+.button svg g:first-child line {
+  transition: transform 0.2s 0.2s;
+  transform: translateY(0px);
+}
+.button svg g:last-child {
+  opacity: 0;
+  transition: opacity 0s 0.2s;
+}
+.button svg g:last-child line {
+  transition: transform 0.2s;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+
+.button.menuOpen svg g:first-child {
+  opacity: 0;
+}
+.button.menuOpen svg g:first-child line {
+  transition: transform 0.2s;
+}
+.button.menuOpen svg g:first-child line:first-child {
+  transform: translateY(7px);
+}
+.button.menuOpen svg g:first-child line:last-child {
+  transform: translateY(-7px);
+}
+.button.menuOpen svg g:last-child {
+  opacity: 1;
+}
+.button.menuOpen svg g:last-child line {
+  transition: transform 0.2s 0.2s;
+}
+.button.menuOpen svg g:last-child line:first-child {
+  transform: rotate(45deg);
+}
+.button.menuOpen svg g:last-child line:last-child {
+  transform: rotate(-45deg);
+}

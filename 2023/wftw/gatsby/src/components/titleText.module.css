@@ -1,0 +1,22 @@
+.hoverDevice {
+  display: none;
+}
+.touchDevice {
+  display: block;
+}
+@media (hover: hover) {
+  .hoverDevice {
+    display: block;
+  }
+  .touchDevice {
+    display: none;
+  }
+  .titleWrap {
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  .wrap:hover .titleWrap {
+    opacity: 1;
+    transition: opacity 300ms;
+  }
+}
