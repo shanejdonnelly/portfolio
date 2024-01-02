@@ -3,7 +3,7 @@
 */
 const Klaviyo = require('node-klaviyo');
 const KlaviyoClient = new Klaviyo({
-    publicToken: 'zDszuf'
+    publicToken: ''
 });
 const leadsJson = require('./bread.json')
 
