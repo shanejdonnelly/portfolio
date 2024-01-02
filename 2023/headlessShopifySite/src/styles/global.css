@@ -1,0 +1,125 @@
+body {
+  font-family: var(--font-body);
+  color: var(--text-color);
+}
+#___gatsby,
+#gatsby-focus-wrapper {
+  all: inherit;
+}
+.gatsby-image-wrapper {
+  margin: auto;
+}
+
+.gatsby-image-wrapper [data-main-image] {
+  border-radius: var(--radius-sm);
+}
+
+.sanityContent h2:first-of-type {
+  margin-top: 0;
+}
+.sanityContent h2 {
+  font-family: "calluna", serif;
+  font-size: 30px;
+  margin: 20px 0;
+}
+.sanityContent h3 {
+  font-family: "calluna", serif;
+  font-size: 24px;
+  margin: 16px 0;
+}
+.sanityContent p {
+  margin: 8px 0;
+  min-height: 16px;
+}
+.sanityContent ul,
+.sanityContent ol {
+  list-style-position: inside;
+}
+.shopify-collectionDescriptionHTML *,
+.shopify-productDescriptionHTML * {
+  color: #2d3748;
+}
+.shopify-collectionDescriptionHTML p,
+.shopify-productDescriptionHTML p {
+  color: #2d3748;
+  margin: 12px 0;
+}
+.shopify-collectionDescriptionHTML ul,
+.shopify-productDescriptionHTML ul {
+  color: #2d3748;
+  margin-left: 12px;
+}
+.shopify-collectionDescriptionHTML a,
+.shopify-productDescriptionHTML a {
+  text-underline-offset: 2px;
+  text-decoration: underline;
+}
+.shopify-collectionDescriptionHTML a:hover,
+.shopify-productDescriptionHTML a:hover {
+  text-decoration: none;
+}
+.template-post-bodyWrap {
+  color: #404041;
+  font-family: "notosans";
+  max-width: 800px;
+  margin: 0 auto 24px;
+}
+.template-post-bodyWrap img {
+  margin: 24px auto;
+}
+.template-post-bodyWrap h1,
+.template-post-bodyWrap h2,
+.template-post-bodyWrap h3,
+.template-post-bodyWrap h4,
+.template-post-bodyWrap h5,
+.template-post-bodyWrap h6 {
+  color: #404041;
+  font-family: "sourceserifpro";
+  margin: 12px 0;
+}
+.template-post-bodyWrap h1 {
+  font-size: 36px;
+}
+.template-post-bodyWrap h2 {
+  font-size: 32px;
+}
+.template-post-bodyWrap h3 {
+  font-size: 28px;
+}
+.template-post-bodyWrap h4 {
+  font-size: 24px;
+}
+.template-post-bodyWrap h5 {
+  font-size: 21px;
+}
+.template-post-bodyWrap h6 {
+  font-size: 18px;
+}
+.template-post-bodyWrap ul {
+  list-style: inside;
+}
+.template-post-bodyWrap p {
+  margin: 12px 0;
+}
+
+.promoBar .template-post-bodyWrap {
+  margin: 0;
+}
+.promoBar .template-post-bodyWrap p {
+  margin: 0;
+}
+.promoBar .template-post-bodyWrap a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.page a,
+.post a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: all 250ms ease;
+}
+.page a:hover,
+.post a:hover {
+  text-decoration: none;
+  transition: all 250ms ease;
+}
