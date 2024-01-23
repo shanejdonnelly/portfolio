@@ -20,10 +20,8 @@ import theme from './theme'
 
 const sanityClient = require('@sanity/client')
 const client = sanityClient({
-  projectId: 's7d1n0k7',
   dataset: 'production',
   apiVersion: '2022-01-13',
-  token: 'skzEZo2hgCrjrDv11fjjCJ6auii57Bgf17akPztnmQxcnpnIdCjgUM97YaWbXTJaKqCTsPHico1bZI1XzEDL1spOgBbPovigbnGxwDm8y2VknvhvMG8B99y2Ejy45wUMNIyPvu261veFxQZUhawqiLvYkc2t7qAzY7yOlTUWlPeDzMkg0KJq',
   useCdn: false,
 })
 
