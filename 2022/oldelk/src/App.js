@@ -35,7 +35,7 @@ function App() {
   const [firstRun, setFirstRun] = useState(true)
 
   //Google Analytics set up
-  const trackingId = "UA-106784577-1";
+  const trackingId = "UA-1";
   ReactGA.initialize(trackingId);
 
   const handleActiveBarrelChange = function (id, data) {
